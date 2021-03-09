@@ -1,10 +1,12 @@
+import styles from './Navbar.module.css'
+
 export default function Navbar() {
   return (
-    <nav style={{ backgroundColor: '#bf5272', display: 'flex', width: '100%', alignItems: 'center' }}>
+    <nav className={styles.nav}>
       <a href="/" style={{ flex: 1 }}>
-        <img src="/pinkBackgroundLong.png" alt="Magnolia JS logo" style={{ width: '20vw', margin: '0.5rem' }} />
+        <img src="/pinkBackgroundLong.png" alt="Magnolia JS logo" className={styles.logo} />
       </a>
-      <ul style={{ listStyle: 'none', display: 'flex', flex: 2, justifyContent: 'space-around' }}>
+      <ul>
         <li>
           <a href="/">
             Schedule
