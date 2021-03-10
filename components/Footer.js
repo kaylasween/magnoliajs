@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with love in Mississippi.
+        &copy; 2021 MagnoliaJS
       </footer>
     </>
   )

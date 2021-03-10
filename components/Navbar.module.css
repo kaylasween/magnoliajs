@@ -6,8 +6,18 @@
   padding: 0.5rem;
 }
 
-.nav .logo {
+.nav > a .logo {
   width: 15vw;
+}
+
+@media(max-width: 768px) {
+  .nav > a {
+    justify-self: center;
+  }
+
+  .nav > a .logo {
+    width: 50vw;
+  }
 }
 
 .nav ul {

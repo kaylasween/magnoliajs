@@ -13,9 +13,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="MagnoliaJS 2021 Information Coming Soon!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          In the meantime, you can find us on <a href="https://twitter.com/MagnoliaJSConf" target="_blank" rel="noreferrer">Twitter</a>!
         </p>
       </main>
 

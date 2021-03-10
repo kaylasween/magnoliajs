@@ -3,10 +3,10 @@ import styles from './Navbar.module.css'
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
-      <a href="/" style={{ flex: 1 }}>
+      <a href="/">
         <img src="/pinkBackgroundLong.png" alt="Magnolia JS logo" className={styles.logo} />
       </a>
-      <ul>
+      {/* <ul>
         <li>
           <a href="/">
             Schedule
@@ -22,7 +22,7 @@ export default function Navbar() {
             Sponsors
           </a>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   )
 } 
