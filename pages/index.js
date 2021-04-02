@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container">
       <Navbar />
       <Head>
-        <title>Next.js Starter!</title>
+        <title>MagnoliaJS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
