@@ -25,7 +25,7 @@ export default function Navbar() {
             Speakers
           </a>
         </li> */}
-        <li>
+        {/* <li>
           <a href="/sponsors">
             Sponsors
           </a>
@@ -34,7 +34,7 @@ export default function Navbar() {
           <a href="/" target="_blank" rel="noreferrer">
             Tickets <FontAwesomeIcon icon={faExternalLinkAlt} />
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )
