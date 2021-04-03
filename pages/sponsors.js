@@ -7,13 +7,17 @@ export default function Home() {
     <div className="container">
       <Navbar />
       <Head>
-        <title>MagnoliaJS</title>
+        <title>Sponsors | MagnoliaJS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>MagnoliaJS 2021</h1>
-        <p className="description">MagnoliaJS 2021 is going virtual! Join us May 25-26 for great speakers, giveaways, and even SWAG!</p>
+        <h1>Sponsors Announced Soon!</h1>
+        {/* <h2>Platinum Sponsors</h2>
+        <h2>Gold Sponsors</h2>
+        <h2>Silver Sponsors</h2>
+        <h2>Giveaway Sponsors</h2>
+        <h2>Sticker Sponsors</h2> */}
       </main>
 
       <Footer />

@@ -1,9 +1,10 @@
 html,
 body {
-  padding: 0;
+  padding: 0.5rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #bf5272;
 }
 
 * {
@@ -11,12 +12,23 @@ body {
 }
 
 main {
-  padding: 5rem 0.5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
+  background-color: #f6e6eb;
+  margin: 1rem auto;
+  color: #363636;
+}
+
+@media(min-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+  
+  main {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 2rem;
+  }
 }
 
 code {
@@ -36,4 +48,22 @@ code {
 
 .title {
   text-align: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/*
+ Accessibility Helpers
+*/
+
+.visually-hidden {
+  left:-999px;
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
 }
