@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #bf5272;
 }
 
 * {
@@ -11,12 +12,18 @@ body {
 }
 
 main {
-  padding: 5rem 0.5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem 0.5rem;
+  margin: 1rem auto;
+}
+
+@media(min-width: 600px) {
+  main {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 code {
