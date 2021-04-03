@@ -18,7 +18,7 @@ main {
   color: #363636;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 650px) {
   body {
     padding: 2rem;
   }
@@ -28,6 +28,12 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 2rem;
+  }
+}
+
+@media(min-width: 0px) {
+  main {
+    padding: 0.5rem;
   }
 }
 

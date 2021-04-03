@@ -4,10 +4,6 @@
   color: white;
 }
 
-.nav > a .logo {
-  width: 25vw;
-}
-
 .nav ul {
   padding-left: 0;
   list-style: none;
@@ -43,7 +39,7 @@
   }
 
   .nav > a .logo {
-    width: 50vw;
+    width: 80vw;
   }
 }
 
@@ -54,4 +50,8 @@
     margin-right: auto;
     flex-direction: row;
   }
+  .nav > a .logo {
+    width: 30vw;
+  }
+  
 }
