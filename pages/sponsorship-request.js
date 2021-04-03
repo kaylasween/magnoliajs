@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Navbar from '@components/Navbar'
 
@@ -13,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Sponsorship Information Request" />
+        <h1>Sponsorship Information Request</h1>
         <p className="description">If you'd like information on how to sponsor MagnoliaJS, please fill out this form and we'll contact you ASAP!</p>
         <form>
           <div>

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Navbar from '@components/Navbar'
 
@@ -13,10 +12,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="MagnoliaJS 2021 Information Coming Soon!" />
-        <p className="description">
-          In the meantime, you can find us on <a href="https://twitter.com/MagnoliaJSConf" target="_blank" rel="noreferrer">Twitter</a>!
-        </p>
+        <h1>MagnoliaJS 2021</h1>
+        <p className="description">MagnoliaJS 2021 is going virtual! Join us May 25-26 for great speakers, giveaways, and even SWAG!</p>
       </main>
 
       <Footer />

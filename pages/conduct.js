@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Navbar from '@components/Navbar'
 
@@ -13,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Code of Conduct" />
+        <h1>Code of Conduct</h1>
         <div className="description">
           <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
           <h2>The Quick Version</h2>
