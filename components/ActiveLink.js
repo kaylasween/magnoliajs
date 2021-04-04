@@ -14,11 +14,13 @@ const ActiveLink = ({ children, activeClassName, ...props }) => {
       : childClassName
 
   return (
-    <Link {...props}>
-      {React.cloneElement(child, {
-        className: className || null,
-      })}
-    </Link>
+    <li>
+      <Link {...props}>
+        {React.cloneElement(child, {
+          className: className || null,
+        })}
+      </Link>
+    </li>
   )
 }
 

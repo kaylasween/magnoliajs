@@ -76,3 +76,17 @@ h1, h2, h3 {
 .center-text {
   text-align: center;
 }
+
+.active::before {
+  content: "{";
+  padding-right: 0.5rem;
+}
+
+.active::after {
+  content: "}";
+  padding-left: 0.5rem;
+}
+
+.active::before, .active::after {
+  font-weight: bold;
+}
