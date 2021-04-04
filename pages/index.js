@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1>MagnoliaJS 2021</h1>
-        <p className="description">MagnoliaJS 2021 is going virtual! Join us May 25-26 for great speakers, giveaways, and even SWAG!</p>
+        <p className="center-text">MagnoliaJS 2021 is going virtual! Join us May 25-26 for great speakers, giveaways, and even SWAG!</p>
       </main>
 
       <Footer />

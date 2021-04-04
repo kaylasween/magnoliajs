@@ -13,6 +13,7 @@ export default function Home() {
 
       <main>
         <h1>Sponsors Announced Soon!</h1>
+        <p className="center-text">If your company is interested in sponsoring MagnoliaJS, shoot us an email at <a href="mailto:sponsors@magnoliajs.com">sponsors@magnoliajs.com</a>!</p>
         {/* <h2>Platinum Sponsors</h2>
         <h2>Gold Sponsors</h2>
         <h2>Silver Sponsors</h2>

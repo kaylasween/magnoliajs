@@ -51,10 +51,6 @@ code {
   align-items: center;
 }
 
-.title {
-  text-align: center;
-}
-
 h1, h2, h3 {
   text-align: center;
 }
@@ -71,4 +67,12 @@ h1, h2, h3 {
   height:1px;
   overflow:hidden;
   z-index:-999;
+}
+
+/*
+  Text Formatters
+*/
+
+.center-text {
+  text-align: center;
 }
