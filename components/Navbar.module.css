@@ -11,18 +11,18 @@
   justify-content: space-around;
 }
 
+.nav ul li a.active::before {
+  content: '{'
+}
+
+.nav ul li a.active::after {
+  content: '}'
+}
+
 .nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
-}
-
-.nav ul li.active::before {
-  content: '{'
-}
-
-.nav ul li.active::after {
-  content: '}'
 }
 
 .nav ul li a svg {

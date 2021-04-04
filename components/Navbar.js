@@ -1,5 +1,9 @@
+import Link from 'next/link'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+
+import ActiveLink from './ActiveLink'
 
 import styles from './Navbar.module.css'
 
@@ -11,29 +15,29 @@ export default function Navbar() {
       </a>
       <ul>
         <li>
-          <a href="/conduct">
-            Code of Conduct
-          </a>
+          <ActiveLink activeClassName="active" href="/conduct">
+            <a>Code of Conduct</a>
+          </ActiveLink>
         </li>
         {/* <li>
-          <a href="/schedule">
+          <ActiveLink href="/schedule">
             Schedule
-          </a>
+          </ActiveLink>
         </li>
         <li>
-          <a href="/speakers">
+          <ActiveLink href="/speakers">
             Speakers
-          </a>
+          </ActiveLink>
         </li> */}
         <li>
-          <a href="/sponsors">
-            Sponsors
-          </a>
+          <ActiveLink activeClassName="active" href="/sponsors">
+            <a>Sponsors</a>
+          </ActiveLink>
         </li>
         {/* <li>
-          <a href="/" target="_blank" rel="noreferrer">
+          <ActiveLink href="/" target="_blank" rel="noreferrer">
             Tickets <FontAwesomeIcon icon={faExternalLinkAlt} />
-          </a>
+          </ActiveLink>
         </li> */}
       </ul>
     </nav>
