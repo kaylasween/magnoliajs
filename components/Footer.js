@@ -8,7 +8,7 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div>
-          <a href="https://twitter.com/MagnoliaJSConf"><FontAwesomeIcon icon={faTwitter} /><span className="visually-hidden">Twitter</span></a>
+          <a href="https://twitter.com/MagnoliaJSConf" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /><span className="visually-hidden">Twitter</span></a>
         </div>
         <div>
           &copy; 2021 MagnoliaJS

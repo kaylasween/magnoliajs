@@ -13,7 +13,7 @@ export default function Home() {
       <h2>Gold Sponsors</h2>
       <h2>Silver Sponsors</h2>
       <h2>Giveaway Sponsors</h2>
-      <h2>Sticker Sponsors</h2> */}
+      <h2>Swag Sponsors</h2> */}
     </Layout>
   )
 }
