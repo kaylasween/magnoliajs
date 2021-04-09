@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from '@components/Layout'
 
+import ThisDotLogo from '../public/Logo-ThisDot.svg'
+
 export default function Home() {
   return (
     <Layout>
@@ -22,6 +24,11 @@ export default function Home() {
       </div>
       <div className="cta-row">
         <a href="https://ti.to/magnoliajs/2021" className="cta-btn">Register for MagnoliaJS <FontAwesomeIcon icon={faExternalLinkAlt} /><span className="visually-hidden">External Link</span></a>
+      </div>
+      <h2>Sponsors</h2>
+      <h3>Platinum Sponsors</h3>
+      <div className="sponsors">
+        <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
       </div>
     </Layout>
   )
