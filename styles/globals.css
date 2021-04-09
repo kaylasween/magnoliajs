@@ -27,11 +27,11 @@ main {
     padding: 1rem;
   }
 
-  div.platinum-sponsors {
+  div.sponsors {
     flex-direction: row;
   }
 
-  div.platinum-sponsors * {
+  div.sponsors * {
     margin: 0 1rem;
   }
 }
@@ -59,11 +59,11 @@ main {
     flex-direction: column;
   }
 
-  .platinum-sponsors {
+  .sponsors {
     flex-direction: column;
   }
 
-  .platinum-sponsors * {
+  .sponsors * {
     margin: 0.5rem auto;
   }
 }
@@ -156,11 +156,11 @@ h1, h2, h3 {
   margin-left: 0.5rem;
 }
 
-.platinum-sponsors {
+.sponsors {
   display: flex;
 }
 
-.platinum-sponsors * {
+.sponsors * {
   display: block;
   flex: 1;
 }
