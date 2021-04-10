@@ -171,6 +171,8 @@ h1, h2, h3 {
 
 .sponsors {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sponsors * {
@@ -179,10 +181,14 @@ h1, h2, h3 {
 }
 
 .giveaway {
-  flex: 0;
+  flex: 0 0 25rem;
   text-align: center;
 }
 
 .giveaway img {
   margin: 0.5rem auto;
+}
+
+.giveaway a {
+  margin-left: 0;
 }
