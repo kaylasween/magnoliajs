@@ -26,7 +26,7 @@ export default function Home() {
         <a href="https://ti.to/magnoliajs/2021" className="cta-btn">Register for MagnoliaJS <FontAwesomeIcon icon={faExternalLinkAlt} /><span className="visually-hidden">External Link</span></a>
       </div>
       <h2>Sponsors</h2>
-      <h3>Platinum Sponsors</h3>
+      <h3>Platinum Sponsor</h3>
       <div className="sponsors">
         <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
       </div>

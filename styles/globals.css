@@ -18,6 +18,10 @@ main {
   color: #363636;
 }
 
+img {
+  width: 100%;
+}
+
 @media(min-width: 850px) {
   main .about {
     flex-direction: row;
@@ -65,6 +69,15 @@ main {
 
   .sponsors * {
     margin: 0.5rem auto;
+    width: 100%;
+  }
+
+  .giveaway img {
+    width: 50%;
+  }
+
+  .giveaway .sponsor-logo {
+    width: 25%;
   }
 }
 
@@ -163,4 +176,13 @@ h1, h2, h3 {
 .sponsors * {
   display: block;
   flex: 1;
+}
+
+.giveaway {
+  flex: 0;
+  text-align: center;
+}
+
+.giveaway img {
+  margin: 0.5rem auto;
 }
