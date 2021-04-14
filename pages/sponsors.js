@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '@components/Layout'
 
 import ThisDotLogo from '../public/Logo-ThisDot.svg'
+import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
       <h2>Platinum Sponsor</h2>
       <div className="sponsors">
         <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
+      </div>
+      <h2>Gold Sponsor</h2>
+      <div className="sponsors">
+        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /></a>
       </div>
       {/* <h2>Giveaway Sponsors</h2>
 
