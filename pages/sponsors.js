@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <h2>Gold Sponsor</h2>
       <div className="sponsors">
-        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /></a>
+        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /> <span className="visually-hidden">Cloudinary</span></a>
       </div>
       {/* <h2>Giveaway Sponsors</h2>
 

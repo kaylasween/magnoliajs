@@ -38,6 +38,10 @@ export default function Home() {
       <div className="sponsors">
         <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
       </div>
+      <h3>Gold Sponsor</h3>
+      <div className="sponsors">
+        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /> <span className="visually-hidden">Cloudinary</span></a>
+      </div>
     </Layout>
   )
 }
