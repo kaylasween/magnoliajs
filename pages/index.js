@@ -4,6 +4,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from '@components/Layout'
 
 import ThisDotLogo from '../public/Logo-ThisDot.svg'
+import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
 
 export default function Home() {
   return (
