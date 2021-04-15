@@ -19,12 +19,17 @@ export default function Home() {
       </div>
       <h2>Gold Sponsor</h2>
       <div className="sponsors">
-        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /></a>
+        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /> <span className="visually-hidden">Cloudinary</span></a>
       </div>
-      {/* <h2>Giveaway Sponsors</h2>
-
-      <h2>Swag Sponsors</h2> */}
-
+      <h2>Giveaway Sponsors</h2>
+      <div className="sponsors">
+        <a href="https://infinite.red" target="_blank" rel="noreferrer"><img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" /> <span className="visually-hidden">Infinite Red</span></a>
+        <a href="https://www.jetbrains.com" target="_blank" rel="noreferrer"><img src="/jetbrains.png" alt="JetBrains's Logo." className="sponsor-logo" />  <span className="visually-hidden">JetBrains</span></a>
+      </div>
+      <h2>Swag Sponsors</h2>
+      <div className="sponsors">
+        <a href="https://infinite.red" target="_blank" rel="noreferrer"><img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" /> <span className="visually-hidden">Infinite Red</span></a>
+      </div>
     </Layout>
   )
 }

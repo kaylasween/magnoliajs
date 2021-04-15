@@ -4,6 +4,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from '@components/Layout'
 
 import ThisDotLogo from '../public/Logo-ThisDot.svg'
+import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
 
 export default function Home() {
   return (
@@ -37,6 +38,10 @@ export default function Home() {
       <h3>Platinum Sponsor</h3>
       <div className="sponsors">
         <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
+      </div>
+      <h3>Gold Sponsor</h3>
+      <div className="sponsors">
+        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /> <span className="visually-hidden">Cloudinary</span></a>
       </div>
     </Layout>
   )
