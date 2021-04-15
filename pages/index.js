@@ -5,6 +5,7 @@ import Layout from '@components/Layout'
 
 import ThisDotLogo from '../public/Logo-ThisDot.svg'
 import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
+import Sponsor from '@components/Sponsor'
 
 export default function Home() {
   return (
@@ -31,17 +32,23 @@ export default function Home() {
         <div className="giveaway">
           <img src="/hypnocube.png" alt="a Hypnocube." />
           Courtesy of
-          <a href="https://infinite.red" target="blank" rel="noreferrer"><img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" /></a>
+          <Sponsor link="https://infinite.red" name="Infinite Red">
+            <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+          </Sponsor>
         </div>
       </div>
       <h2>Sponsors</h2>
       <h3>Platinum Sponsor</h3>
       <div className="sponsors">
-        <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
+        <Sponsor link="https://www.thisdot.co" name="This Dot">
+          <ThisDotLogo />
+        </Sponsor>
       </div>
       <h3>Gold Sponsor</h3>
       <div className="sponsors">
-        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /> <span className="visually-hidden">Cloudinary</span></a>
+        <Sponsor link="https://cloudinary.rocks/mpx" name="Cloudinary">
+          <CloudinaryLogo />
+        </Sponsor>
       </div>
     </Layout>
   )

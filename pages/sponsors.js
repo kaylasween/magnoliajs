@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '@components/Layout'
+import Sponsor from '@components/Sponsor'
 
 import ThisDotLogo from '../public/Logo-ThisDot.svg'
 import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
@@ -15,20 +16,30 @@ export default function Home() {
       <p className="center-text"><small>If your company is interested in sponsoring MagnoliaJS, shoot us an email at <a href="mailto:sponsors@magnoliajs.com">sponsors@magnoliajs.com</a>!</small></p>
       <h2>Platinum Sponsor</h2>
       <div className="sponsors">
-        <a href="https://www.thisdot.co" target="_blank" rel="noreferrer"><ThisDotLogo /> <span className="visually-hidden">This Dot</span></a>
+        <Sponsor link="https://www.thisdot.co" name="This Dot">
+          <ThisDotLogo />
+        </Sponsor>
       </div>
       <h2>Gold Sponsor</h2>
       <div className="sponsors">
-        <a href="https://cloudinary.rocks/mpx" target="_blank" rel="noreferrer"><CloudinaryLogo /> <span className="visually-hidden">Cloudinary</span></a>
+        <Sponsor link="https://cloudinary.rocks/mpx" name="Cloudinary">
+          <CloudinaryLogo />
+        </Sponsor>
       </div>
       <h2>Giveaway Sponsors</h2>
       <div className="sponsors">
-        <a href="https://infinite.red" target="_blank" rel="noreferrer"><img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" /> <span className="visually-hidden">Infinite Red</span></a>
-        <a href="https://www.jetbrains.com" target="_blank" rel="noreferrer"><img src="/jetbrains.png" alt="JetBrains's Logo." className="sponsor-logo" />  <span className="visually-hidden">JetBrains</span></a>
+        <Sponsor link="https://infinite.red" name="Infinite Red">
+          <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+        </Sponsor>
+        <Sponsor link="https://www.jetbrains.com" name="JetBrains">
+          <img src="/jetbrains.png" alt="JetBrains's logo." className="sponsor-logo" />
+        </Sponsor>
       </div>
       <h2>Swag Sponsors</h2>
       <div className="sponsors">
-        <a href="https://infinite.red" target="_blank" rel="noreferrer"><img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" /> <span className="visually-hidden">Infinite Red</span></a>
+        <Sponsor link="https://infinite.red" name="Infinite Red">
+          <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+        </Sponsor>
       </div>
     </Layout>
   )
