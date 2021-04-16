@@ -3,6 +3,7 @@ import Layout from '@components/Layout'
 import Sponsor from '@components/Sponsor'
 
 import ThisDotLogo from '../public/Logo-ThisDot.svg'
+import VirtualCoffeeLogo from '../public/virtual-coffee-full.svg'
 import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
 
 export default function Home() {
@@ -39,6 +40,12 @@ export default function Home() {
       <div className="sponsors">
         <Sponsor link="https://infinite.red" name="Infinite Red">
           <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+        </Sponsor>
+      </div>
+      <h2>Community Sponsors</h2>
+      <div className="sponsors">
+        <Sponsor link="https://virtualcoffee.io" name="Virtual Coffee">
+          <VirtualCoffeeLogo />
         </Sponsor>
       </div>
     </Layout>

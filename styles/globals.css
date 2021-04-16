@@ -36,8 +36,9 @@ img {
   }
 
   div.sponsors * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0 1rem;
+    max-width: 75%;
   }
 }
 
