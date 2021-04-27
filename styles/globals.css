@@ -55,6 +55,20 @@ img {
     padding: 1rem 2rem;
   }
 
+  div.speaker {
+    flex-direction: row;
+  }
+
+  div.speaker img {
+    height: 100%;
+    width: 20%;
+    flex: 1;
+  }
+  
+  div.speaker .speaker-info {
+    flex: 3;
+  }
+
 }
 
 @media(min-width: 0px) {
@@ -77,6 +91,14 @@ img {
 
   .giveaway img {
     width: 50%;
+  }
+
+  .speaker {
+    flex-direction: column;
+  }
+
+  .speaker img {
+    height: 100%;
   }
 }
 
@@ -220,14 +242,4 @@ img.sponsor-logo {
 .speaker h2 {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.speaker img {
-  height: 100%;
-  width: 20%;
-  flex: 1;
-}
-
-.speaker .speaker-info {
-  flex: 3;
 }
