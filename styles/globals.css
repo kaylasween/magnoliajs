@@ -202,3 +202,32 @@ img.sponsor-logo {
   margin-left: auto;
   margin-right: auto;
 }
+
+.speaker-area {
+  margin: 1rem auto;
+}
+
+.speaker {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.speaker > * {
+  margin: 0.5rem;
+}
+
+.speaker h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.speaker img {
+  height: 100%;
+  width: 20%;
+  flex: 1;
+}
+
+.speaker .speaker-info {
+  flex: 3;
+}

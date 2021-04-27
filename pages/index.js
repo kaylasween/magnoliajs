@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from '@components/Layout'
 
-import ThisDotLogo from '../public/Logo-ThisDot.svg'
-import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
+import ThisDotLogo from '../public/logos/Logo-ThisDot.svg'
+import CloudinaryLogo from '../public/logos/cloudinary_logo_blue_0720_svg.svg'
 import Sponsor from '@components/Sponsor'
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
           <img src="/hypnocube.png" alt="a Hypnocube." />
           Courtesy of
           <Sponsor link="https://infinite.red" name="Infinite Red">
-            <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+            <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
           </Sponsor>
         </div>
       </div>

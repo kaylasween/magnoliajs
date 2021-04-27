@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Layout from '@components/Layout'
 import Sponsor from '@components/Sponsor'
 
-import ThisDotLogo from '../public/Logo-ThisDot.svg'
-import VirtualCoffeeLogo from '../public/virtual-coffee-full.svg'
-import CloudinaryLogo from '../public/cloudinary_logo_blue_0720_svg.svg'
+import ThisDotLogo from '../public/logos/Logo-ThisDot.svg'
+import VirtualCoffeeLogo from '../public/logos/virtual-coffee-full.svg'
+import CloudinaryLogo from '../public/logos/cloudinary_logo_blue_0720_svg.svg'
 
-export default function Home() {
+export default function Sponsors() {
   return (
     <Layout>
       <Head>
@@ -30,16 +30,16 @@ export default function Home() {
       <h2>Giveaway Sponsors</h2>
       <div className="sponsors">
         <Sponsor link="https://infinite.red" name="Infinite Red">
-          <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+          <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
         </Sponsor>
         <Sponsor link="https://www.jetbrains.com" name="JetBrains">
-          <img src="/jetbrains.png" alt="JetBrains's logo." className="sponsor-logo" />
+          <img src="/logos/jetbrains.png" alt="JetBrains's logo." className="sponsor-logo" />
         </Sponsor>
       </div>
       <h2>Swag Sponsors</h2>
       <div className="sponsors">
         <Sponsor link="https://infinite.red" name="Infinite Red">
-          <img src="/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+          <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
         </Sponsor>
       </div>
       <h2>Community Sponsors</h2>

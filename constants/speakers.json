@@ -1,0 +1,77 @@
+{
+  "speakers": [
+    {
+      "name": "Blake Watson",
+      "title": "Frontend Engineer, MRI Technologies",
+      "bio": "Web tinkerer and coder with a disability working on projects for NASA. Enjoys code, design, cheap coffee, and side projects.",
+      "talkTitle": "Speaking in Code: Hands-Free Input with Talon",
+      "talkAbstract": "Forget what you know about using speech recognition software. Talon makes it possible to code precisely by voice (and much more). Talon is configurable and scriptable with Python, which makes it flexible enough to fit any workflow. It’s great for people who have difficulty typing or anyone who wants to feel like they’re a powerful sorcerer bending technology to their will.",
+      "headshot": "BlakePic.png",
+      "twitter": "blakewatson"
+    }, {
+      "name": "Dijah McDonald",
+      "title": "",
+      "bio": "Dijah is a React developer that loves to learn about security while sipping too much chai.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "DijahPic.png",
+      "twitter": "astrodijah"
+    }, {
+      "name": "Dustin Goodman",
+      "title": "Engineering Manager, This Dot Labs",
+      "bio": "Dustin Goodman is an engineer, tech speaker, and blogger with 10 years of experience in web development. He currently acts as an Engineering Manager at This Dot, and actively contributes free community resources through This Dot Media.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "DustinPic.png",
+      "twitter": "dustinsgoodman"
+    }, {
+      "name": "Gant Laborde",
+      "title": "CIO of Infinite Red",
+      "bio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at https://gantlaborde.com/",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "GantPic.png",
+      "twitter": "GantLaborde"
+    }, {
+      "name": "Justin Samuels",
+      "title": "Senior Software Engineer",
+      "bio": "Justin Samuels is a technologist and influencer of all things software engineering and underrepresented groups in technology. Having started Render-Atlanta to amplify developers' presence in the south, emphasizing culture and inclusion, Justin has become a pillar in the local Atlanta and global engineering community as a force to represent community building and engineering excellence. Justin has also started the Rebuild Black Business platform to amplify black-owned businesses' stories and treasures throughout the United States. He is also a full-time Senior Engineer at Mailchimp in Atlanta, where he helps empower small and medium-sized enterprises on their marketing platform.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "JustinPic.png",
+      "twitter": "ThugDebugger"
+    }, {
+      "name": "Michael Liendo",
+      "title": "Frontend/Serverless Consultant",
+      "bio": "Frontend Engineer and Serverless Practitioner. AWS Community Builder.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "MichaelLiendoPic.png",
+      "twitter": "mtliendo"
+    }, {
+      "name": "Nader Dabit",
+      "title": "Developer Relations Engineer, Edge and Node",
+      "bio": "Developer, Author, Teacher, currently working as a Developer Relations Engineer at Edge and Node.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "NaderPic.png",
+      "twitter": "dabit3"
+    }, {
+      "name": "Sia Karamalegos",
+      "title": "Web Developer",
+      "bio": "Sia Karamalegos is a developer, international conference speaker, and writer. She is a Google Developer Expert in Web Technologies, a Cloudinary Media Developer Expert, and a Women Techmakers ambassador. She co-organizes GDG New Orleans and its marquee event, DevFest New Orleans. She is the founder and lead developer for Clio + Calliope Web Development and was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "SiaPic.png",
+      "twitter": "TheGreenGreek"
+    }, {
+      "name": "Tracy Lee",
+      "title": "CEO and Co-Founder, This Dot Labs",
+      "bio": "Organizer of This.JavaScript, Modern Web, Contributor Days, Google Developer Group, and RxWorkshop",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "TracyPic.png",
+      "twitter": "ladyleet"
+    }
+  ]
+}
