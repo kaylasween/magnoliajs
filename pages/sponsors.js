@@ -3,6 +3,7 @@ import Layout from '@components/Layout'
 import Sponsor from '@components/Sponsor'
 
 import ThisDotLogo from '../public/logos/Logo-ThisDot.svg'
+import KopisLogo from '../public/logos/kopis_red_w_words.svg'
 import VirtualCoffeeLogo from '../public/logos/virtual-coffee-full.svg'
 import CloudinaryLogo from '../public/logos/cloudinary_logo_blue_0720_svg.svg'
 
@@ -37,13 +38,16 @@ export default function Sponsors() {
         </Sponsor>
       </div>
       <h2>Swag Sponsors</h2>
-      <div className="sponsors">
+      <div className="sponsors community-sponsors">
         <Sponsor link="https://infinite.red" name="Infinite Red">
           <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
         </Sponsor>
+        <Sponsor link="https://kopismobile.com" name="KopisMobile">
+          <KopisLogo />
+        </Sponsor>
       </div>
       <h2>Community Sponsors</h2>
-      <div className="sponsors">
+      <div className="sponsors community-sponsors">
         <Sponsor link="https://virtualcoffee.io" name="Virtual Coffee">
           <VirtualCoffeeLogo />
         </Sponsor>

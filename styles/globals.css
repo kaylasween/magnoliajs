@@ -201,6 +201,12 @@ h1, h2, h3 {
   flex: 1;
 }
 
+.community-sponsors svg {
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
 .giveaway {
   flex: 0 0 25rem;
   text-align: center;

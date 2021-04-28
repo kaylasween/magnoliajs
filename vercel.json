@@ -1,6 +1,7 @@
 {
   "redirects": [
     { "source": "/info", "destination": "/" },
-    { "source": "/codeofconduct", "destination": "/conduct" }
+    { "source": "/codeofconduct", "destination": "/conduct" },
+    {"source": "/tickets", "destination": "https://ti.to/magnoliajs/2021"}
   ]
 }
