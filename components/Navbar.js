@@ -25,6 +25,9 @@ export default function Navbar() {
         <ActiveLink activeClassName="active" href="/sponsors">
           <a>Sponsors</a>
         </ActiveLink>
+        <ActiveLink activeClassName="active" href="/tickets">
+          <a>Tickets</a>
+        </ActiveLink>
       </ul>
     </nav>
   )
