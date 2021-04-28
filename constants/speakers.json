@@ -8,6 +8,14 @@
       "talkAbstract": "Forget what you know about using speech recognition software. Talon makes it possible to code precisely by voice (and much more). Talon is configurable and scriptable with Python, which makes it flexible enough to fit any workflow. It’s great for people who have difficulty typing or anyone who wants to feel like they’re a powerful sorcerer bending technology to their will.",
       "headshot": "BlakePic.png",
       "twitter": "blakewatson"
+    }, {  
+      "name": "Dacey Nolan",
+      "title": "Software Engineer - Publicist",
+      "bio": "Dacey is a self-taught frontend software engineer. She is a Women in Tech mentor and is passionate about making the web accessible for all.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "DaceyPic.png",
+      "twitter": "dacey_nolan"
     }, {
       "name": "Dijah McDonald",
       "title": "",
@@ -41,6 +49,14 @@
       "headshot": "JustinPic.png",
       "twitter": "ThugDebugger"
     }, {
+      "name": "Kent C. Dodds",
+      "title": "JavaScript Engineer and Trainer at Kent C. Dodds Tech LLC",
+      "bio": "Kent C. Dodds is a JavaScript engineer and teacher. He's also active in the open source community. He likes his family, JavaScript, and React.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "KentPic.png",
+      "twitter": "kentcdodds"
+    }, {
       "name": "Michael Liendo",
       "title": "Frontend/Serverless Consultant",
       "bio": "Frontend Engineer and Serverless Practitioner. AWS Community Builder.",
@@ -56,6 +72,14 @@
       "talkAbstract": "",
       "headshot": "NaderPic.png",
       "twitter": "dabit3"
+    }, {
+      "name": "Shawn Swyx Wang",
+      "title": "Head of Developer Experience, Temporal.io",
+      "bio": "swyx has worked on React and serverless JavaScript at Two Sigma, Netlify and AWS, and now serves as Head of Developer Experience at Temporal.io. He has started and run communities for hundreds of thousands of developers, like Svelte Society, /r/reactjs, and the React TypeScript Cheatsheet. His nontechnical writing was recently published in the Coding Career Handbook for Junior to Senior developers.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "ShawnPic.png",
+      "twitter": "swyx"
     }, {
       "name": "Sia Karamalegos",
       "title": "Web Developer",
