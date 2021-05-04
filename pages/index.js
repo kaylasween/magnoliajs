@@ -27,7 +27,16 @@ export default function Home() {
       <div className="cta-row">
         <a href="https://ti.to/magnoliajs/2021" className="cta-btn">Register for MagnoliaJS <FontAwesomeIcon icon={faExternalLinkAlt} /><span className="visually-hidden">External Link</span></a>
       </div>
-      
+      <h2>Giveaways</h2>
+      <div className="sponsors">
+        <div className="giveaway">
+          <img src="/hypnocube.png" alt="a Hypnocube." />
+          Courtesy of
+          <Sponsor link="https://infinite.red" name="Infinite Red">
+            <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+          </Sponsor>
+        </div>
+      </div>
       <h2>Sponsors</h2>
       <h3>Platinum Sponsor</h3>
       <div className="sponsors">
@@ -40,16 +49,6 @@ export default function Home() {
         <Sponsor link="https://cloudinary.rocks/mpx" name="Cloudinary">
           <CloudinaryLogo />
         </Sponsor>
-      </div>
-      <h2>Giveaways</h2>
-      <div className="sponsors">
-        <div className="giveaway">
-          <img src="/hypnocube.png" alt="a Hypnocube." />
-          Courtesy of
-          <Sponsor link="https://infinite.red" name="Infinite Red">
-            <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
-          </Sponsor>
-        </div>
       </div>
     </Layout>
   )
