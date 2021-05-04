@@ -31,16 +31,16 @@ export default function Sponsors() {
       <h2>Giveaway Sponsors</h2>
       <div className="sponsors">
         <Sponsor link="https://infinite.red" name="Infinite Red">
-          <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+          <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="conf-sponsor-logo" />
         </Sponsor>
         <Sponsor link="https://www.jetbrains.com" name="JetBrains">
-          <img src="/logos/jetbrains.png" alt="JetBrains's logo." className="sponsor-logo" />
+          <img src="/logos/jetbrains.png" alt="JetBrains's logo." className="conf-sponsor-logo" />
         </Sponsor>
       </div>
       <h2>Swag Sponsors</h2>
       <div className="sponsors community-sponsors">
         <Sponsor link="https://infinite.red" name="Infinite Red">
-          <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="sponsor-logo" />
+          <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="conf-sponsor-logo" />
         </Sponsor>
         <Sponsor link="https://kopismobile.com" name="KopisMobile">
           <KopisLogo />
