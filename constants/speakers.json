@@ -1,7 +1,17 @@
 {
   "speakers": [
     {
+      "name": "Ava Gaiety Wroten",
+      "pronouns": "she/her",
+      "title": "UI Engineer, Oncue",
+      "bio": "🐕 Canine pretending to be a web engineer 💻 ",
+      "talkTitle": "Building the Dream UI Component Library",
+      "talkAbstract": "A well made app is visually consistent, appealing, and usable. What does it look like to build a system that can engineers, designers, quality assurance, and product can use to make all of this happen? Let's dive into the standards and technologies that have gone into building the new design system at Oncue with accessibility and testing in mind.",
+      "headshot": "AvaPic.png",
+      "twitter": ""
+    }, {
       "name": "Blake Watson",
+      "pronouns": "he/him",
       "title": "Frontend Engineer, MRI Technologies",
       "bio": "Web tinkerer and coder with a disability working on projects for NASA. Enjoys code, design, cheap coffee, and side projects.",
       "talkTitle": "Speaking in Code: Hands-Free Input with Talon",
@@ -10,6 +20,7 @@
       "twitter": "blakewatson"
     }, {  
       "name": "Dacey Nolan",
+      "pronouns": "she/her",
       "title": "Software Engineer - Publicist",
       "bio": "Dacey is a self-taught frontend software engineer. She is a Women in Tech mentor and is passionate about making the web accessible for all.",
       "talkTitle": "",
@@ -18,6 +29,7 @@
       "twitter": "dacey_nolan"
     }, {
       "name": "Dijah McDonald",
+      "pronouns": "she/her",
       "title": "",
       "bio": "Dijah is a React developer that loves to learn about security while sipping too much chai.",
       "talkTitle": "",
@@ -26,6 +38,7 @@
       "twitter": "astrodijah"
     }, {
       "name": "Dustin Goodman",
+      "pronouns": "he/him",
       "title": "Engineering Manager, This Dot Labs",
       "bio": "Dustin Goodman is an engineer, tech speaker, and blogger with 10 years of experience in web development. He currently acts as an Engineering Manager at This Dot, and actively contributes free community resources through This Dot Media.",
       "talkTitle": "",
@@ -34,14 +47,26 @@
       "twitter": "dustinsgoodman"
     }, {
       "name": "Gant Laborde",
+      "pronouns": "he/him",
       "title": "CIO of Infinite Red",
       "bio": "Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is recognized as a Google Developer Expert in Web and Machine Learning, but informally he is an “open sourcerer” and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at https://gantlaborde.com/",
       "talkTitle": "",
       "talkAbstract": "",
       "headshot": "GantPic.png",
       "twitter": "GantLaborde"
+    }, 
+    {
+      "name": "Jen Luker",
+      "pronouns": "she/her",
+      "title": "Senior Staff Frontend Engineer, Nav, Inc.",
+      "bio": "Jen Luker is a knitter, quilter, accessibility advocate and Senior Staff Engineer working to make the collection of the world's knowledge available to everyone. ",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "JenPic.png",
+      "twitter": "knitcodemonkey"
     }, {
       "name": "Justin Samuels",
+      "pronouns": "he/him",
       "title": "Senior Software Engineer",
       "bio": "Justin Samuels is a technologist and influencer of all things software engineering and underrepresented groups in technology. Having started Render-Atlanta to amplify developers' presence in the south, emphasizing culture and inclusion, Justin has become a pillar in the local Atlanta and global engineering community as a force to represent community building and engineering excellence. Justin has also started the Rebuild Black Business platform to amplify black-owned businesses' stories and treasures throughout the United States. He is also a full-time Senior Engineer at Mailchimp in Atlanta, where he helps empower small and medium-sized enterprises on their marketing platform.",
       "talkTitle": "",
@@ -50,6 +75,7 @@
       "twitter": "ThugDebugger"
     }, {
       "name": "Kent C. Dodds",
+      "pronouns": "he/him",
       "title": "JavaScript Engineer and Trainer at Kent C. Dodds Tech LLC",
       "bio": "Kent C. Dodds is a JavaScript engineer and teacher. He's also active in the open source community. He likes his family, JavaScript, and React.",
       "talkTitle": "",
@@ -58,6 +84,7 @@
       "twitter": "kentcdodds"
     }, {
       "name": "Michael Liendo",
+      "pronouns": "he/him",
       "title": "Frontend/Serverless Consultant",
       "bio": "Frontend Engineer and Serverless Practitioner. AWS Community Builder.",
       "talkTitle": "",
@@ -66,6 +93,7 @@
       "twitter": "mtliendo"
     }, {
       "name": "Nader Dabit",
+      "pronouns": "he/him",
       "title": "Developer Relations Engineer, Edge and Node",
       "bio": "Developer, Author, Teacher, currently working as a Developer Relations Engineer at Edge and Node.",
       "talkTitle": "",
@@ -74,6 +102,7 @@
       "twitter": "dabit3"
     }, {
       "name": "Shawn Swyx Wang",
+      "pronouns": "he/him",
       "title": "Head of Developer Experience, Temporal.io",
       "bio": "swyx has worked on React and serverless JavaScript at Two Sigma, Netlify and AWS, and now serves as Head of Developer Experience at Temporal.io. He has started and run communities for hundreds of thousands of developers, like Svelte Society, /r/reactjs, and the React TypeScript Cheatsheet. His nontechnical writing was recently published in the Coding Career Handbook for Junior to Senior developers.",
       "talkTitle": "",
@@ -82,6 +111,7 @@
       "twitter": "swyx"
     }, {
       "name": "Sia Karamalegos",
+      "pronouns": "she/her",
       "title": "Web Developer",
       "bio": "Sia Karamalegos is a developer, international conference speaker, and writer. She is a Google Developer Expert in Web Technologies, a Cloudinary Media Developer Expert, and a Women Techmakers ambassador. She co-organizes GDG New Orleans and its marquee event, DevFest New Orleans. She is the founder and lead developer for Clio + Calliope Web Development and was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
       "talkTitle": "",
@@ -90,6 +120,7 @@
       "twitter": "TheGreenGreek"
     }, {
       "name": "Tracy Lee",
+      "pronouns": "she/her",
       "title": "CEO and Co-Founder, This Dot Labs",
       "bio": "Organizer of This.JavaScript, Modern Web, Contributor Days, Google Developer Group, and RxWorkshop",
       "talkTitle": "",

@@ -15,7 +15,8 @@ export default function Speakers() {
           <div className="speaker">
             <img src={`/speakers/${speaker.headshot}`} alt={`${speaker.name}'s headshot.`} />
             <div className="speaker-info">
-              <h2><a href={`https://twitter.com/${speaker.twitter}`}>{speaker.name}</a></h2>
+              <h2>{speaker.twitter ? <a href={`https://twitter.com/${speaker.twitter}`}>{speaker.name}</a> : speaker.name}</h2>
+              <small><strong>{speaker.pronouns}</strong></small><br />
               <small>{speaker.title}</small>
               <p>{speaker.bio}</p>
             </div>
