@@ -101,6 +101,15 @@
       "headshot": "NaderPic.png",
       "twitter": "dabit3"
     }, {
+      "name": "Sara McCombs",
+      "pronouns": "she/her",
+      "title": "Software Engineer, Aiera",
+      "bio": "Sara is a published former research director turned software engineer and team lead at Aiera, as well as a community engagement leader at Project Alloy. She is also one of the original organizers, and a current community maintainer, at Virtual Coffee. Sara is passionate about diversity and inclusion, and has written frequently about her journey into tech. She has an M.Ag and a B.S.Ag from West Virginia University, and is a 2020 graduate of Flatiron School. ",
+      "talkTitle": "Cows and the Art of Software Engineering",
+      "talkAbstract": "As we all know, the first thing anyone thinks when talking about software engineering is cows... Right? No? Well, it's never too late to start. By recounting her own unique experiences, Sara will explain how even the most unusual life path is more translatable to software engineering than it may originally seem. ",
+      "headshot": "SaraPic.png",
+      "twitter": "dino_momma"
+    }, {
       "name": "Shawn Swyx Wang",
       "pronouns": "he/him",
       "title": "Head of Developer Experience, Temporal.io",
