@@ -54,8 +54,16 @@
       "talkAbstract": "",
       "headshot": "GantPic.png",
       "twitter": "GantLaborde"
-    }, 
-    {
+    }, {
+      "name": "Herbert \"Satch\" Brown",
+      "pronouns": "he/him",
+      "title": "Instructor, Mississippi Coding Academies",
+      "bio": "Satch is an instructor for the Mississippi Coding Academies, Jackson Campus. He has worked in nontraditional education for 15 years and has been a member of the academy since its inception in 2017. ",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "HerbPic.png",
+      "twitter": "bluesatch"
+    }, {
       "name": "Jen Luker",
       "pronouns": "she/her",
       "title": "Senior Staff Frontend Engineer, Nav, Inc.",
