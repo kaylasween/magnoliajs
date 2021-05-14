@@ -9,6 +9,7 @@ import CloudinaryLogo from '../public/logos/cloudinary_logo_blue_0720_svg.svg'
 import EchobindLogo from '../public/logos/eb-gradient-black.svg'
 import MCALogo from '../public/logos/MCA.svg'
 import BeanPathLogo from '../public/logos/BeanPathGreen.svg'
+import ZoomLogo from '../public/logos/Zoom - White.svg'
 
 export default function Sponsors() {
   return (
@@ -62,6 +63,9 @@ export default function Sponsors() {
       <div className="sponsors community-sponsors">
         <Sponsor link="https://virtualcoffee.io" name="Virtual Coffee">
           <VirtualCoffeeLogo />
+        </Sponsor>
+        <Sponsor link="https://zoom.us" name="Zoom">
+          <ZoomLogo />
         </Sponsor>
       </div>
     </Layout>
