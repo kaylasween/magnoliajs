@@ -6,6 +6,9 @@ import ThisDotLogo from '../public/logos/Logo-ThisDot.svg'
 import KopisLogo from '../public/logos/kopis_red_w_words.svg'
 import VirtualCoffeeLogo from '../public/logos/virtual-coffee-full.svg'
 import CloudinaryLogo from '../public/logos/cloudinary_logo_blue_0720_svg.svg'
+import EchobindLogo from '../public/logos/eb-gradient-black.svg'
+import MCALogo from '../public/logos/MCA.svg'
+import BeanPathLogo from '../public/logos/BeanPathGreen.svg'
 
 export default function Sponsors() {
   return (
@@ -42,8 +45,17 @@ export default function Sponsors() {
         <Sponsor link="https://infinite.red" name="Infinite Red">
           <img src="/logos/InfiniteRedLogo.png" alt="Infinite Red's logo." className="conf-sponsor-logo" />
         </Sponsor>
-        <Sponsor link="https://kopismobile.com" name="KopisMobile">
+        <Sponsor link="https://kopismobile.com" name="Kopis Mobile">
           <KopisLogo />
+        </Sponsor>
+        <Sponsor link="https://mscoding.org" name="Mississippi Coding Academies">
+          <MCALogo />
+        </Sponsor>
+        <Sponsor link="https://echobind.com" name="Echobind">
+          <EchobindLogo />
+        </Sponsor>
+        <Sponsor link="https://thebeanpath.org" name="The Bean Path">
+          <BeanPathLogo />
         </Sponsor>
       </div>
       <h2>Community Sponsors</h2>
