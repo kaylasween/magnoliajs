@@ -183,7 +183,7 @@ export default function Speakers() {
           </tr>
           <tr>
             <td>2:00PM</td>
-            <td>Continuing Technical Learning</td>
+            <td>Continuing Technical Education</td>
             <td>Kassian Wren</td>
           </tr>
           <tr>
