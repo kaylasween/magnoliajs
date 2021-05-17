@@ -256,3 +256,20 @@ img.conf-sponsor-logo {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+table {
+  margin: 1rem auto;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(191, 82, 114, 0.3);
+}
+
+table, th, td {
+  border: 1px solid #3c3c3c;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+}
