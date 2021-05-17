@@ -82,6 +82,15 @@
       "headshot": "JustinPic.png",
       "twitter": "ThugDebugger"
     }, {
+      "name": "Kassian Wren",
+      "pronouns": "they/them",
+      "title": "Senior Developer Advocate, Zoom",
+      "bio": "Kassian is a senior developer advocate at Zoom by day, and a hardware hacker by night. They love javascript, making light-up clothing, and snuggling their cats.",
+      "talkTitle": "Continuing Technical Education",
+      "talkAbstract": "Have you ever needed to learn something new, fast? Ever feel like you're behind where you should be in your technical skills? Let's take a look at building a lifelong learning habit and how to turn your limited learning time into serious results!",
+      "headshot": "KassianPic.png",
+      "twitter": "nodebotanist"
+    }, {
       "name": "Kent C. Dodds",
       "pronouns": "he/him",
       "title": "JavaScript Engineer and Trainer at Kent C. Dodds Tech LLC",
