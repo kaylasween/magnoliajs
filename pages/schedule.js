@@ -100,8 +100,8 @@ export default function Speakers() {
           </tr>
           <tr>
             <td>3:20PM</td>
-            <td>TBD</td>
-            <td>Justin Samuels</td>
+            <td>The Joy of Dev Life: A Bob Ross Guide</td>
+            <td>Bekah Hawrot Weigel</td>
           </tr>
           <tr>
             <td>3:45PM</td>
