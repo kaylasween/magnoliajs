@@ -18,7 +18,7 @@ export default function Speakers() {
               <h2>{speaker.twitter ? <a href={`https://twitter.com/${speaker.twitter}`}>{speaker.name}</a> : speaker.name}</h2>
               <small><strong>{speaker.pronouns}</strong></small><br />
               <small>{speaker.title}</small>
-              <p>{speaker.bio}</p>
+              {speaker.bio ? <p>{speaker.bio}</p> : null}
             </div>
           </div>
         </div>
