@@ -145,6 +145,15 @@
       "headshot": "NaderPic.png",
       "twitter": "dabit3"
     }, {
+      "name": "Rachel Nabors",
+      "pronouns": "they/them",
+      "title": "React Core/Facebook",
+      "bio": "Rachel Nabors got into interaction development and web standards after an award winning career in web comics. Currently she works on learning resources and documentation on the React Core team at Facebook.",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "RachelPic.png",
+      "twitter": "rachelnabors"
+    }, {
       "name": "Sara McCombs",
       "pronouns": "she/her",
       "title": "Software Engineer, Aiera",
@@ -171,6 +180,15 @@
       "talkAbstract": "",
       "headshot": "SiaPic.png",
       "twitter": "TheGreenGreek"
+    }, {
+      "name": "Star Richardson",
+      "pronouns": "she/her",
+      "title": "Software Engineer, This Dot Labs",
+      "bio": "Former makeup artist turned self-taught TypeScript, React, and Python software engineer",
+      "talkTitle": "",
+      "talkAbstract": "",
+      "headshot": "StarPic.png",
+      "twitter": "alicenstar"
     }, {
       "name": "Tracy Lee",
       "pronouns": "she/her",
