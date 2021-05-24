@@ -203,7 +203,7 @@ export default function Speakers() {
           </tr>
           <tr>
             <td>3:15PM</td>
-            <td>TBD</td>
+            <td>Doing as Little Work as Possible</td>
             <td>Ken Wheeler</td>
           </tr>
           <tr>

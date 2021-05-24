@@ -109,6 +109,15 @@
       "headshot": "KassianPic.png",
       "twitter": "nodebotanist"
     }, {
+      "name": "Ken Wheeler",
+      "pronouns": "he/him",
+      "title": "",
+      "bio": "JavaScripteur - UI - Music Producer - Half of @theundefinedio",
+      "talkTitle": "Doing as Little Work as Possible",
+      "talkAbstract": "",
+      "headshot": "KenPic.png",
+      "twitter": "ken_wheeler"
+    }, {
       "name": "Kent C. Dodds",
       "pronouns": "he/him",
       "title": "JavaScript Engineer and Trainer at Kent C. Dodds Tech LLC",
