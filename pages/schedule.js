@@ -44,12 +44,12 @@ export default function Speakers() {
             <td></td>
           </tr>
           <tr>
-            <td>10:40AM</td>
+            <td>10:35AM</td>
             <td>Web2 to Web3</td>
             <td>Nader Dabit</td>
           </tr>
           <tr>
-            <td>11:10AM</td>
+            <td>11:05AM</td>
             <td>LUNCH</td>
             <td>Virtual Coffee</td>
           </tr>
