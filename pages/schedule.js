@@ -34,27 +34,27 @@ export default function Speakers() {
             <td></td>
           </tr>
           <tr>
-            <td>9:45AM</td>
+            <td>9:50AM</td>
             <td>Speaking in Code: Hands-Free Input with Talon</td>
             <td>Blake Watson</td>
           </tr>
           <tr>
-            <td>10:10AM</td>
+            <td>10:20AM</td>
             <td>BREAK</td>
             <td></td>
           </tr>
           <tr>
-            <td>10:30AM</td>
+            <td>10:40AM</td>
             <td>Web2 to Web3</td>
             <td>Nader Dabit</td>
           </tr>
           <tr>
-            <td>11:00AM</td>
+            <td>11:10AM</td>
             <td>LUNCH</td>
             <td>Virtual Coffee</td>
           </tr>
           <tr>
-            <td>12:35PM</td>
+            <td>12:45PM</td>
             <td>Welcome Back</td>
             <td>Kenneth LaFrance (Emcee)</td>
           </tr>
