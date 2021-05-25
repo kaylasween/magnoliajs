@@ -108,6 +108,11 @@ export default function Speakers() {
             <td>Wrap Day 1 (Giveaways, afterparty announcement)</td>
             <td>Kenneth LaFrance (Emcee)</td>
           </tr>
+          <tr>
+            <td>6:00PM</td>
+            <td>Happy Hour/Day 1 Wrap Party</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
 
