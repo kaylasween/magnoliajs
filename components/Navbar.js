@@ -19,18 +19,6 @@ export default function Navbar() {
         <ActiveLink activeClassName="active" href="/conduct">
           <a>Code of Conduct</a>
         </ActiveLink>
-        <ActiveLink activeClassName="active" href="/schedule">
-          <a>Schedule</a>
-        </ActiveLink>
-        <ActiveLink activeClassName="active" href="/speakers">
-          <a>Speakers</a>
-        </ActiveLink>
-        <ActiveLink activeClassName="active" href="/sponsors">
-          <a>Sponsors</a>
-        </ActiveLink>
-        <ActiveLink activeClassName="active" href="/tickets">
-          <a>Tickets</a>
-        </ActiveLink>
       </ul>
     </nav>
   )
