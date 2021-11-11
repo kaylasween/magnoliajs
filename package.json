@@ -1,12 +1,11 @@
 {
-  "name": "next-netlify-starter",
+  "name": "MagnoliaJS",
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "dev": "blitz dev",
+    "build": "blitz build",
+    "start": "blitz start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
@@ -15,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@svgr/webpack": "^5.5.0",
-    "next": "10.0.6",
+    "blitz": "^0.42.4",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }
