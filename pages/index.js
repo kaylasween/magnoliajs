@@ -3,10 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from '@components/Layout'
 
-import ThisDotLogo from '../public/logos/Logo-ThisDot.svg'
-import CloudinaryLogo from '../public/logos/cloudinary_logo_blue_0720_svg.svg'
-import Sponsor from '@components/Sponsor'
-
 export default function Home() {
   return (
     <Layout>
