@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link, Routes } from "blitz"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
