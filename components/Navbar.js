@@ -20,7 +20,7 @@ export default function Navbar() {
           <a>Code of Conduct</a>
         </ActiveLink>
         <ActiveLink activeClassName="active" href="/covid">
-          <a>COVID Information</a>
+          <a>COVID Policy</a>
         </ActiveLink>
       </ul>
     </nav>
