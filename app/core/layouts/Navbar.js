@@ -1,4 +1,4 @@
-import { Image, Link } from 'blitz'
+import { Link } from 'blitz'
 
 import ActiveLink from '../components/ActiveLink'
 import styles from './styles/Navbar.module.css'
@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <Link href="/">
         <a>
-          <Image src="/magnoliajs.png" alt="Magnolia JS logo" className={styles.logo} />
+          <img src="/magnoliajs.png" alt="Magnolia JS logo" className={styles.logo} />
         </a>
       </Link>
       <ul>
