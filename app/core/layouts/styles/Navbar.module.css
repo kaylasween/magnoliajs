@@ -1,0 +1,52 @@
+.nav {
+  background-color: #bf5272;
+  text-align: center;
+  color: white;
+}
+
+.nav ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul li {
+  padding: 0.5rem;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.nav ul li a svg {
+  width: 1rem;
+}
+
+@media (min-width: 0px) {
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .nav > a {
+    justify-self: center;
+  }
+
+  .nav > a .logo {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav ul {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+  }
+  .nav > a .logo {
+    width: 30vw;
+  }
+}

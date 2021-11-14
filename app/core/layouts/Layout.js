@@ -1,17 +1,20 @@
-import { Head } from "blitz";
+import { Head } from "blitz"
 
-const Layout = ({
-  title,
-  children
-}) => {
-  return <>
+import Footer from "./Footer"
+import Navbar from "./Navbar"
+
+export default function Home(props) {
+  return (
+    <div className="container">
+      <Navbar />
       <Head>
-        <title>{title || "magnoliajs"}</title>
+        <title>MagnoliaJS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {children}
-    </>;
-};
+      <main>{props.children}</main>
 
-export default Layout;
+      <Footer />
+    </div>
+  )
+}
