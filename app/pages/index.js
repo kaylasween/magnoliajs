@@ -1,5 +1,4 @@
 import { Head } from "blitz"
-import Image from "next/image"
 
 import Layout from "../core/layouts/Layout"
 
@@ -13,7 +12,7 @@ export default function Home() {
       <h1>See ya in 2022!</h1>
       <div className="about">
         <div>
-          <Image
+          <img
             src="/magnoliajs-2019-26.jpg"
             alt="Ken Wheeler giving a talk at MagnoliaJS 2019 while attendees watch."
           />
