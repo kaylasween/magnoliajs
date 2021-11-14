@@ -6,10 +6,8 @@
     "build": "blitz build",
     "start": "blitz start",
     "studio": "blitz prisma studio",
-    "lint": "eslint --ignore-path .gitignore --ext .js .",
     "test": "jest",
     "test:watch": "jest --watch",
-    "prepare": "husky install"
   },
   "prisma": {
     "schema": "db/schema.prisma"
@@ -18,26 +16,20 @@
     "semi": false,
     "printWidth": 100
   },
-  "lint-staged": {
-    "*.{js}": [
-      "eslint --fix"
-    ]
-  },
   "dependencies": {
     "@prisma/client": "3.4.2",
     "blitz": "0.42.4",
-    "react-dom": "18.0.0-alpha-5ca4b0433-20211020",
-    "react": "18.0.0-alpha-5ca4b0433-20211020",
-    "zod": "3.11.6",
     "final-form": "4.20.4",
-    "react-final-form": "6.5.7"
+    "react": "18.0.0-alpha-5ca4b0433-20211020",
+    "react-dom": "18.0.0-alpha-5ca4b0433-20211020",
+    "react-final-form": "6.5.7",
+    "zod": "3.11.6"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "husky": "7.0.4",
     "lint-staged": "11.3.0-beta.2",
-    "prettier-plugin-prisma": "3.4.1",
     "prettier": "2.4.1",
+    "prettier-plugin-prisma": "3.4.1",
     "pretty-quick": "3.1.1",
     "preview-email": "3.0.5",
     "prisma": "3.4.2"
