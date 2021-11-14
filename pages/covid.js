@@ -21,7 +21,7 @@ export default function COVID() {
         <p>Each person will be given two disposable masks at pick-up, one for each day of the conference.</p>
         <h2>Refunds</h2>
         <p>We understand things happen. If you need a refund, we'll provide that to you no questions asked until two weeks prior to the event. After that point, we'll move your ticket to MagnoliaJS 2023.</p>
-        <p>Failure to comply with any of these policies will result in removal from the event without refund.</p>
+        <p><strong>Failure to comply with any of these policies will result in removal from the event without refund.</strong></p>
 
         <h2>(Presumed) Frequently Asked Questions</h2>
         <h3>I don't feel comfortable attending in-person events yet. Can I still participate?</h3>
