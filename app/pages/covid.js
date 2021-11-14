@@ -11,7 +11,6 @@ export default function COVID() {
 
       <h1>COVID Policy</h1>
       <div className="description">
-        <p>At the time of writing this policy, COVID is still... COVID.</p>
         <p>
           The safety of our attendees, volunteers, speakers, staff, and sponsors are of the utmost
           priority. We will be continuously updating this policy, so keep an eye on this page and{" "}
