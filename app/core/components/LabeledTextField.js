@@ -1,5 +1,6 @@
-import { forwardRef } from "react";
-import { useField } from "react-final-form";
+import { forwardRef } from 'react'
+import { useField } from 'react-final-form'
+
 export const LabeledTextField = forwardRef(({
   name,
   label,
@@ -18,23 +19,23 @@ export const LabeledTextField = forwardRef(({
     }
   } = useField(name, {
     parse: props.type === "number" ? Number : // Converting `""` to `null` ensures empty values will be set to null in the DB
-    v => v === "" ? null : v,
+      v => v === "" ? null : v,
     ...fieldProps
   });
   const normalizedError = Array.isArray(error) ? error.join(", ") : error || submitError;
   return <div {...outerProps}>
-        <label {...labelProps}>
-          {label}
-          <input {...input} disabled={submitting} {...props} ref={ref} />
-        </label>
+    <label {...labelProps}>
+      {label}
+      <input {...input} disabled={submitting} {...props} ref={ref} />
+    </label>
 
-        {touched && normalizedError && <div role="alert" style={{
+    {touched && normalizedError && <div role="alert" style={{
       color: "red"
     }}>
-            {normalizedError}
-          </div>}
+      {normalizedError}
+    </div>}
 
-        <style jsx>{`
+    <style jsx>{`
           label {
             display: flex;
             flex-direction: column;
@@ -50,6 +51,6 @@ export const LabeledTextField = forwardRef(({
             margin-top: 0.5rem;
           }
         `}</style>
-      </div>;
+  </div>;
 });
 export default LabeledTextField;

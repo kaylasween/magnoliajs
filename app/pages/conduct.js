@@ -1,6 +1,6 @@
-import { Head } from "blitz"
+import { Head } from 'blitz'
 
-import Layout from "../core/layouts/Layout"
+import Layout from '../core/layouts/Layout'
 
 export default function Conduct() {
   return (

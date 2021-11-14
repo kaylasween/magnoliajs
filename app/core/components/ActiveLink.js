@@ -1,6 +1,6 @@
-import { Link, useRouter } from "blitz"
-import PropTypes from "prop-types"
-import React, { Children } from "react"
+import { Link, useRouter } from 'blitz'
+import PropTypes from 'prop-types'
+import React, { Children } from 'react'
 
 const ActiveLink = ({ children, activeClassName, ...props }) => {
   const { asPath } = useRouter()

@@ -1,7 +1,7 @@
-import { Head } from "blitz"
+import { Head } from 'blitz'
 
-import Footer from "./Footer"
-import Navbar from "./Navbar"
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 export default function Home(props) {
   return (

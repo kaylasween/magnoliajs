@@ -1,4 +1,5 @@
-import db from "db";
+import db from 'db'
+
 export default async function getCurrentUser(_ = null, {
   session
 }) {
